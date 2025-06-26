@@ -1,0 +1,22 @@
+Scope_B.O.
+Scope_DEMO
+NEW
+Scope_EXP
+Scope_NEW
+Scope_NEW
+RENO
+Scope_RENO
+Contract_BB
+BT_Civic/Specialty
+BT_Commercial
+BT_Education
+BT_Healthcare
+BT_Hospitality/Residential
+BT_Industrial
+BT_Mission Critical
+Log Sq Ft
+Levels
+Levels * Log Sq Ft
+Levels * Scope_NEW
+Levels * Contract_BB
+Log Sq Ft * Contract_BB
