@@ -2,15 +2,15 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import cloudpickle
+import cloudpickle as pickle
 from datetime import datetime, timedelta
 
 # Load locked-in model and polynomial transformer
 with open("locked_in_ridge_model_cloud.pkl", "rb") as f:
-    model = cloudpickle.load(f)
+    model = pickle.load(f)
 
 with open("locked_in_poly_features.pkl", "rb") as f:
-    poly = cloudpickle.load(f)
+    poly = pickle.load(f)
 
 # Load feature names
 with open("locked_in_feature_columns.txt") as f:
