@@ -4,6 +4,10 @@ import pandas as pd
 import numpy as np
 import joblib
 from datetime import datetime, timedelta
+import cloudpickle
+with open("locked_in_ridge_model_cloud.pkl", "rb") as f:
+    model = cloudpickle.load(f)
+
 
 # Load locked-in model and polynomial transformer
 model = joblib.load("locked_in_ridge_model.pkl")
